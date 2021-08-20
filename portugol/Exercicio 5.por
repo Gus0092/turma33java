@@ -1,25 +1,30 @@
 programa
 {
-	
-	funcao inicio()
-	{
-		escreva("Nome: ")
-		escreva("Gustavo Victor Cerqueira")
-		escreva("\nData de Nasc.: ")
-		escreva(" 02/06/1992")
-		escreva("\nFilme favorito: ")
-		escreva("Whiplash: Em busca da perfeição")
 
+    funcao inicio()
+    {
 
+        inteiro nota1, nota2, nota3, media
 
-	}
+        escreva("Insira a Nota 1: ")
+        leia (nota1)
+        escreva("Insira a Nota 2: ")
+        leia (nota2)
+        escreva("Insira a Nota 3: ")
+        leia (nota3)
+
+        media=((nota1*2)+(nota2*3)+(nota3*5))/10
+
+        escreva("A média do aluno  é: " +media)
+
+    }
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 58; 
+ * @POSICAO-CURSOR = 362; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

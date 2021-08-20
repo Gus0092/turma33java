@@ -12,7 +12,7 @@ programa
 		escreva("Escreva seu ano de nascimento: ")
 		leia (anoNascimento)
 		idade=2021-anoNascimento
-		escreva ("BOM DIA "+ nome+", SUA IDADE APROXIMADA É "+(idade))
+		escreva ("BOM DIA "+ nome+", Sua idade apro "+(idade)+("Anos")
 
 	}
 }
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 103; 
+ * @POSICAO-CURSOR = 51; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

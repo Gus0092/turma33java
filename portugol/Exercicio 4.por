@@ -5,11 +5,11 @@ programa
 	{
 		inteiro a, b, c ,r , s , d
 
-		escreva("Escreva um numero inteiro positivo: ")
+		escreva("Escreva um numero A inteiro positivo: ")
 		leia (a)
-		escreva("Escreva um numero inteiro positivo: ")
+		escreva("Escreva um numero B inteiro positivo: ")
 		leia (b)
-		escreva("Escreva um numero inteiro positivo: ")
+		escreva("Escreva um numero C inteiro positivo: ")
 		leia (c)		
 		r=(a+b)*(a+b)
 		s=(b+c)*(b+c)
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 314; 
+ * @POSICAO-CURSOR = 326; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

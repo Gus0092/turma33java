@@ -14,9 +14,12 @@ programa
 		leia(a)
 		escreva("Digite o valor da base do traingulo retangulo em centímetros(cm): ")
 		leia(b)
-		t=(a*b)/2
-		escreva("o valor da area do traingulo retangulo é de: ", t , "cm²")
-		
+		se (a>0 e b>0){ 
+			t=(a*b)/2
+			escreva("o valor da area do traingulo retangulo é de: ", t , "cm²")
+		}
+		senao
+			escreva("Voce inseriu um numero ou caractere inválido")
 		
 	}
 }
@@ -25,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 481; 
+ * @POSICAO-CURSOR = 591; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -7,11 +7,24 @@ consumidor.
  */
 package lista1;
 
+import java.util.Scanner;
+
 public class Exercicio8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		double custo, preco, imposto, distribuidor;
+		
+		Scanner leia = new Scanner (System.in);
+		
 
+		imposto = 0.45;
+		distribuidor = 0.28;
+		System.out.println("Qual o preço do carro:");
+		custo = leia.nextDouble();
+
+		preco = custo * (1 + imposto + distribuidor);
+		System.out.println("O preço do carro sera de: " + preco);	
 	}
 
 }

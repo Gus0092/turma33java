@@ -5,11 +5,27 @@ respectivamente.
  */
 package lista1;
 
+import java.util.Scanner;
+
 public class Exercicio5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
+        double nota1, nota2, nota3, media;
+        Scanner leia = new Scanner (System.in);
+        
+        System.out.println("Insira a Nota 1: ");
+        nota1 = leia.nextDouble();
+        System.out.println("Insira a Nota 2: ");
+        nota2 = leia.nextDouble();
+        System.out.println("Insira a Nota 3: ");
+        nota3 = leia.nextDouble();
 
+        media=((nota1*2)+(nota2*3)+(nota3*5))/10;
+
+        System.out.println("A média do aluno  é: " +media);
+		
 	}
 
 }

@@ -6,44 +6,27 @@ import java.util.Scanner;
 
 public class Exercicio2 {
 	
- 	static int years = 0;
- 	static int months = 0;
- 	static int days = 0;
- 	static int meses = 0;
+
  	
 	public static void main(String[] args) {
+		
+	 	int anos = 0;
+	    int meses = 0;
+	 	int dias = 0;
+	 	int diasIdade = 0;
+		System.out.println("Escreva sua idade em dias: ");
+    	Scanner mySc = new Scanner(System.in);
+    	diasIdade = mySc.nextInt();
+		
+		anos = diasIdade/365;
+		meses=((diasIdade-(anos*365))/30);				
+		dias=((diasIdade%365)%30);
+		
+		
+		System.out.println("Então voce tem "+ anos +" anos, " +meses+ " meses e " + dias + " dias de idade!");
 
-	
-		//Inicializadores
-    	getYears();
-    	getMonth();
-    	getDays();
-    	toGreat();
+
 	}
-		//Entrada de dados
 		
-	    public static void getYears() {
-	    	System.out.println("Escreva sua idade em anos: ");
-	    	Scanner mySc = new Scanner(System.in);
-	    	years = mySc.nextInt();
-	    }
-	    public static void getMonth() {
-	    	System.out.println("Escreva os meses: ");
-	    	Scanner mySc = new Scanner(System.in);
-	    	months = mySc.nextInt();
-	    }
-	    
-	    public static void getDays() {
-	    	System.out.println("Escreva em dias: ");
-	    	Scanner mySc = new Scanner(System.in);
-	    	days = mySc.nextInt();
-	    }
-	    
-    public static void toGreat() {
-    	days = (days+(years*365)+(months*30));
-    	System.out.println(String.format("Sua idade em dias é "+days));
-    }
-		
-	
 
 }

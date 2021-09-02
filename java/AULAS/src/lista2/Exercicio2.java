@@ -10,6 +10,7 @@ public class Exercicio2 {
 				Scanner leia = new Scanner(System.in);
 				
 				// Entradas
+		
 				int a, b, c;
 				
 				System.out.println("Digite um numero inteiro positivo");
@@ -22,8 +23,8 @@ public class Exercicio2 {
 				c = leia.nextInt();
 				
 				//processamento
-				if (a > b && a > c) {
-					if (b > c) {
+				if (a < b && a < c) {
+					if (b < c) {
 						System.out.println("Os numeros em ordem crescente são:"+a+", "+b+", "+c);
 					}
 					else {
@@ -31,8 +32,8 @@ public class Exercicio2 {
 					}
 					
 				}
-				else if (b > c) {
-					if (a > c) {
+				else if (b < c) {
+					if (a < c) {
 						System.out.println("Os numeros em ordem crescente são:"+b+", "+a+", "+c);
 					}
 					else {
@@ -40,7 +41,7 @@ public class Exercicio2 {
 					}
 				}
 				else  {
-					if (a > b) {
+					if (a < b) {
 						System.out.println("Os numeros em ordem crescente são:"+c+", "+a+", "+b);
 					}
 					else {

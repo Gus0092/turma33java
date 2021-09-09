@@ -3,7 +3,9 @@ esta classe, em seguida crie um objeto avião, defina as instancias deste
 objeto e apresente as informações deste objeto no console.
  * 
  */
-package lista1.exercicio2;
+package lista1.poo;
+
+import lista1.Classes.Aviao;
 
 public class Exercicio2 {
 

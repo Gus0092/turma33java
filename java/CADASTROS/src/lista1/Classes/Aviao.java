@@ -4,7 +4,7 @@ objeto e apresente as informações deste objeto no console.
  * 
  */
 
-package lista1.exercicio2;
+package lista1.Classes;
 
 public class Aviao {
 	public String modelo;
@@ -46,7 +46,7 @@ public class Aviao {
 		if (ligado) {
 			System.out.println("Situação: Ligado\nAltitude: "+ altitude +"m");
 		} else {
-			System.out.println("Situação: Desligado\nAltitude: "+ altitude +"m\"");
+			System.out.println("Situação: Desligado\nAltitude: "+ altitude +"m");
 		}
 	}
 

@@ -3,7 +3,9 @@ esta classe, em seguida crie um objeto cliente, defina as instancias deste
 objeto e apresente as informações deste objeto no console.
  * 
  */
-package lista1.exercicio1;
+package lista1.poo;
+
+import lista1.Classes.Cliente;
 
 public class Exercicio1 {
 

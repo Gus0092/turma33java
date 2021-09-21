@@ -1,12 +1,12 @@
 package entities;
 
-public class Conta {
+public abstract class Conta {
 
 	//atributos
-	private int numero;
-	private String cpf;
-	private double saldo;
-	private boolean ativo;
+	protected int numero;
+	protected String cpf;
+	protected double saldo;
+	protected boolean ativo;
 	
 	//construtor
 
@@ -54,7 +54,10 @@ public class Conta {
 		//saldo = saldo + valor;
 		saldo += valor;
 	}
-	
+	public void outraOpcao() {
+		
+
+	}
 	public void debito(double valor) {
 		
 		if (valor == 0) {

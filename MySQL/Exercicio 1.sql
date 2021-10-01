@@ -19,4 +19,4 @@ delete from funcionarios where id>7;
 select * from funcionarios where salario > 2000;
 select * from funcionarios where salario < 2000;
 update funcionarios set salario = 8000.50 where id = 6;
-select * from funcionarios;
+select * from funcionarios;postagem
